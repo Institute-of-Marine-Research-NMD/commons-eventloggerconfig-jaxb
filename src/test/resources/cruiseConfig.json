@@ -1,0 +1,80 @@
+{
+  "config_events":
+  [
+  {
+    "uuid": {"value": "c48bdfd62a9fa554da823dda","show":"-1"},
+    "name": {"value": "Bunntrål","show":"0"},
+    "activityId": {"value": "0","show":"0"},
+    "mainGroup": {"uuid": "70a5ea63500d5b3643bf7209","value": "trawl","show":"0"},
+    "autoStop": {"value": false,"show":"0"},
+    "code": {"value": "1222","show":"0"},
+    "timelimit": {"value": "20","show":"0"},
+    "no": {"value": "","show":"1"},
+    "serialNumber": {"value": "","show":"1"},
+    "wire": {"value": "","show":"1"},
+    "antall": {"value": "","show":"1"},
+    "fishdepth_min": {"value": "","show":"1"},
+    "fishdepth_max": {"value": "","show":"1"},
+    "åpning": {"value": "","show":"1"},
+    "spredning": {"value": "","show":"1"},
+    "comments": {"value": "","show":"1"}
+  },
+  {
+    "uuid": {"value": "c48bdfd62a9fa554da823dda","show":"-1"},
+    "name": {"value": "CTD","show":"0"},
+    "activityId": {"value": "0","show":"0"},
+    "mainGroup": {"uuid": "76b5a07d1bf5abd7f74e507c","value": "ctd","show":"0"},
+    "autoStop": {"value": false,"show":"0"},
+    "code": {"value": "1600","show":"0"},
+    "timelimit": {"value": "20","show":"0"},
+    "serial": {"value": "","show":"1", "type":"1"},
+    "instrument_weather": {"value": "","show":"1"},
+    "instrument_sea": {"value": "","show":"1"},
+    "instrument_clouds": {"value": "","show":"1"},
+    "instrument_ice": {"value": "","show":"1"},
+    "instrument_light": {"value": "","show":"1"},
+    "comments": {"value": "","show": "1"}
+  },
+  {
+    "uuid": {"value": "c48bdfd62a9fa554da823dda","show":"-1"},
+    "name": {"value": "Kurs forandring","show":"0"},
+    "activityId": {"uuid": "f5230278ce071f47add55323","value": "0","show":"0"},
+    "mainGroup": {"value": "other","show":"0"},
+    "autoStop": {"value": true,"show":"0"},
+    "code": {"value": "1600","show":"0"},
+    "timelimit": {"value": "20","show":"0"},
+    "heading":{"value": "","show":"1"},
+    "comments":{"value": "","show":"1"}
+  },
+  {
+    "uuid": {"value": "c48bdfd62a9fa554da823dda","show":"-1"},
+    "name": {"value": "Pelagisk trål","show":"0"},
+    "activityId": {"value": "0","show":"0"},
+    "mainGroup": {"uuid": "70a5ea63500d5b3643bf7209","value": "trawl","show":"0"},
+    "autoStop": {"value": false,"show":"0"},
+    "code": {"value": "1234","show":"0"},
+    "timelimit": {"value": "20","show":"0"},
+    "antall": {"value": "","show":"1"},
+    "no": {"value": "","show":"1"},
+    "serialNumber": {"value": "","show":"1"},
+    "wire": {"value": "","show":"1"},
+    "fishdepth_min": {"value": "","show":"1"},
+    "fishdepth_max": {"value": "","show":"1"},
+    "åpning": {"value": "","show":"1"},
+    "spredning": {"value": "","show":"1"},
+    "comments": {"value": "","show":"1"}
+  },
+  {
+    "uuid": {"value": "c48bdfd62a9fa554da823dda","show":"-1"},
+    "name": {"value": "Sjøpattedyr observasjon","show":"0"},
+    "activityId": {"value": "0","show":"0"},
+    "mainGroup": {"uuid": "707832091df4abb887cacfa9","value": "seaMammals","show":"0"},
+    "autoStop": {"value": true,"show":"0"},
+    "code": {"value": "1600","show":"0"},
+    "timelimit": {"value": "20","show":"0"},
+    "quantity": {"value": "","show":"1"},
+    "type": {"value": "","show":"1"},
+    "comments": {"value": "","show":"1"}
+  }
+  ]
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified"
+           targetNamespace="http://www.imr.no/formats/eventloggerconfig/v1"
+           xmlns="http://www.imr.no/formats/eventloggerconfig/v1">
+
+    <xs:element name="eventloggerconfig" type="eventloggerConfigType" />
+
+    <xs:complexType name="eventloggerConfigType">
+        <xs:sequence>
+            <xs:element name="config_events" type="configEventsType" minOccurs="1" maxOccurs="unbounded" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="configEventsType">
+        <xs:sequence>
+            <xs:element name="uuid" type="subType"/>
+            <xs:element name="name" type="subType"/>
+            <xs:element name="activityId" type="subType"/>
+            <xs:element name="mainGroup" type="subType"/>
+            <xs:element name="autoStop" type="subType"/>
+            <xs:element name="code" type="subType"/>
+            <xs:element name="timelimit" type="subType"/>
+            <xs:element name="quantity" type="subType"/>
+            <xs:element name="type" type="subType"/>
+            <xs:element name="heading" type="subType"/>
+            <xs:element name="serial" type="subType"/>
+            <xs:element name="instrument_weather" type="subType"/>
+            <xs:element name="instrument_sea" type="subType"/>
+            <xs:element name="instrument_clouds" type="subType"/>
+            <xs:element name="instrument_ice" type="subType"/>
+            <xs:element name="instrument_light" type="subType"/>
+            <xs:element name="no" type="subType"/>
+            <xs:element name="serialNumber" type="subType"/>
+            <xs:element name="wire" type="subType"/>
+            <xs:element name="antall" type="subType"/>
+            <xs:element name="fishdepth_min" type="subType"/>
+            <xs:element name="fishdepth_max" type="subType"/>
+            <xs:element name="apning" type="subType"/>
+            <xs:element name="spredning" type="subType"/>
+            <xs:element name="comments" type="subType"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="subType">
+        <xs:sequence>
+            <xs:element name="uuid" type="xs:string" />
+            <xs:element name="value" type="xs:string" />
+            <xs:element name="show" type="xs:string" />
+            <xs:element name="type" type="xs:string" />
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>
